@@ -1,0 +1,38 @@
+Key difference between HTTP1.1 and HTTP2
+
+Introduction
+HTTP/1.1 and HTTP/2 are two versions of the Hypertext Transfer Protocol, which is the foundation of data communication on the World Wide Web. They differ in terms of performance, features, and how they handle the exchange of information between clients (such as web browsers) and servers.
+
+------------------------------------------------------------------------------------------------
+
+Key difference
+
+1.Multiplexing
+In HTTP/1.1, each request-response cycle requires a dedicated connection. This means that if a page has multiple resources (images, scripts, stylesheets), separate connections must be established for each, leading to potential bottlenecks and increased latency.
+
+HTTP/2, on the other hand, employs a single connection that allows multiple streams of data to be sent and received concurrently. This multiplexing capability reduces latency by efficiently utilizing the available connection, resulting in faster loading times for web pages.
+
+
+2.Header Compression
+In HTTP/1.1, header information is sent with each request and response, contributing to increased overhead.
+
+HTTP/2 uses header compression (HPACK algorithm), reducing the size of headers and optimizing bandwidth usage.
+
+
+3. Binary Protocol
+While HTTP/1.1 relies on plain text for communication, HTTP/2 adopts a binary protocol. The switch to binary encoding results in more efficient parsing and processing of data by both clients and servers. This streamlined approach allows for faster data transmission and reduces the likelihood of errors in communication.
+
+The binary format of HTTP/2 also facilitates better support for advanced features like prioritization and flow control, enhancing the overall efficiency of data exchange.
+
+
+4.Server Push
+HTTP/2 introduces a groundbreaking feature known as server push, which enables servers to proactively send resources to clients before they are explicitly requested. In contrast to HTTP/1.1, where each resource must be requested individually, server push allows servers to anticipate the needs of the client and push relevant resources without waiting for explicit requests.
+
+This capability significantly reduces the number of round-trip requests needed to load a web page, leading to faster page rendering and a more seamless user experience.
+
+------------------------------------------------------------------------------------------------
+
+Conclusion
+
+HTTP/2 builds upon the foundations of HTTP/1.1, addressing its limitations and introducing features that significantly enhance the speed and efficiency of web communication. As a result, many modern websites and applications have transitioned to using HTTP/2 to provide users with faster and more responsive experiences.
+

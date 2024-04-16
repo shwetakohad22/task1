@@ -1,0 +1,10 @@
+ip address ---> 
+IP addresses, or Internet Protocol addresses, are unique numerical labels assigned to devices on a computer network. They serve as identifiers, enabling communication and data exchange between devices. IPv4 addresses consist of four sets of numbers, while IPv6 uses a longer alphanumeric format to accommodate the growing number of connected devices.
+
+ports ---> 
+A port, in computer networking, is a communication endpoint for processes running on a device. It's identified by a numerical value and helps direct data to specific applications. Ports allow multiple services to operate on a single device, facilitating organized data transfer and communication across the internet.
+
+HTTP methods ---> HTTP methods are commands used in the Hypertext Transfer Protocol for communication between clients and servers. Common methods include GET for retrieving data, POST for submitting data, and DELETE for removing resources. They define the action to be performed on a specified resource and play a vital role in web interactions.
+
+MAC address ---> 
+A MAC (Media Access Control) address is a unique identifier assigned to network interfaces for communication on a network. It's a hardware address embedded in network interface cards, enabling devices to recognize and communicate with each other within a local network. MAC addresses are crucial for data transmission and network management.
